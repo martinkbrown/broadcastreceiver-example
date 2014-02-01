@@ -22,9 +22,7 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
 				"Broadcast Received!", 
 				Toast.LENGTH_LONG).show();
 		
-		//myIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		context.startActivity(myIntent);
-		
 	}
 
 }

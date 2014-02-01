@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.main);
         
         receiver = new MyBroadcastReceiver();
-        IntentFilter filter = new IntentFilter(Intent.ACTION_AIRPLANE_MODE_CHANGED);
+        IntentFilter filter = new IntentFilter(Intent.ACTION_CALL_BUTTON);
         
         registerReceiver(receiver, filter);
     }
